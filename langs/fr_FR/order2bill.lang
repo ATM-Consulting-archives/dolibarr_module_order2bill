@@ -1,0 +1,52 @@
+Module104058Name = Order2Bill
+Module104058Desc = Order2Bill Description
+
+ATMAbout = Ce module a été développé par <a href="http://www.atm-consulting.fr" target="_blank">ATM Consulting</a><br>Vous pouvez retrouver la documentation sur notre <a href="http://wiki.atm-consulting.fr/index.php/Accueil" target="_blank">wiki</a><br><br>Pour toute question technique ou retour, contactez-nous sur <a href="mailto:support@atm-consulting.fr">support@atm-consulting.fr</a><br><br>Pour toute question commerciale, contactez-nous sur <a href="mailto:contact@atm-consulting.fr">contact@atm-consulting.fr</a> ou au +33 9 77 19 50 70<br><br>Retrouvez nos autres modules sur <a href="http://www.dolistore.com/search.php?orderby=position&orderway=desc&search_query=atm&submit_search=Rechercher" target="_blank">Dolistore</a>
+
+Order2BillSetup = Configuration du module Order2Bill
+Order2BillAbout = A propos du module Order2Bill
+
+Order2Bill=Order2Bill
+
+# MENU
+TopMenuOrder2Bill=Order2Bill
+
+# STATUS
+Order2BillStatusDraft=Brouillon (à valider)
+Order2BillStatusValidated=Validée (à accepter)
+Order2BillStatusRefused=Refusée (fermée)
+Order2BillStatusAccepted=Acceptée (fermée)
+
+Draft=Brouillon
+Validate=Validé
+Refused=Refusé
+Accepted=Accepté
+
+# LIST
+Order2BillList=Liste Order2Bill
+NoOrder2Bill=(vide)
+
+# CARD
+NewOrder2Bill=Création Order2Bill
+Order2BillCard=Fiche Order2Bill
+
+# CARD TPL
+Save=Enregistrer
+CreateDraft=Créer brouillon
+Cancel=Annuler
+Validate=Valider
+Modify=Modifier
+Reopen=Rouvrir
+ToClone=Cloner
+Delete=Supprimer
+
+LeftMenuOrder2BillCreate=Commandes facturables
+ORDER2BILL_VALID_INVOICE=Validée les factures
+ORDER2BILL_INVOICE_PER_ORDER=Une facture par commande
+ORDER2BILL_CLOSE_ORDER=Marqué la commande liée facturée
+ORDER2BILL_GENERATE_INVOICE_PDF=Généré le PDF de la facture
+ORDER2BILL_USE_DEFAULT_BANK_IN_INVOICE_MODULE=Utiliser le compte bancaire par défaut
+ORDER2BILL_ADD_ORDER_AS_TITLES=Ajouter les commandes en tant que titres
+ORDER2BILL_DISPLAY_ORDERCUSTOMER_IN_TITLE=Ajouter le client dans ces titres
+NoOrderSelected=Aucune commande de sélectionnée
+InvoiceCreated=%s facture(s) créée(s)
