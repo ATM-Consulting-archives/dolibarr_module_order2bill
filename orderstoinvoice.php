@@ -96,21 +96,21 @@ if (($action == 'create' || $action == 'add') && !$error)
 	} else {
 		$dateFact = dol_mktime(0, 0, 0, GETPOST('dtfactmonth'), GETPOST('dtfactday'), GETPOST('dtfactyear'));
 	}
-	
+
 	if(empty($orders)) {
 		setEventMessage($langs->trans('NoOrderSelected'), 'warnings');
 	} else {
 		$o= new Order2Bill();
 		$nbFacture = $o->generate_factures($orders, $dateFact,false);
-		 
+
 		setEventMessage($langs->trans('InvoiceCreated', $nbFacture));
-		
+
 		header("Location: ".$_SERVER['PHP_SELF']);
-		
+
 	}
-	
+
 	exit;
-	
+
 }
 
 $html=new Form($db);
@@ -209,9 +209,9 @@ if (($action != 'create' && $action != 'add') || ($action == 'create' && $error)
 		print '<input class="flat" size="10" type="text" name="sref" value="'.$sref.'">';
 		print '</td>';
 		print '<td class="liste_titre">&nbsp;';
-		
+
 		print '</td>';
-		
+
 		print '<td class="liste_titre" align="left">';
 		print '<input class="flat" type="text" size="10" name="sref_client" value="'.$sref_client.'">';
         print '</td>';
@@ -278,7 +278,7 @@ if (($action != 'create' && $action != 'add') || ($action == 'create' && $error)
 			print '<td class="nobordernopadding nowrap">';
 			print $generic_commande->thirdparty->getNomUrl(1);
 			print '</td>';
-			
+
 			print '<td>'.$objp->ref_client.'</td>';
 
 			// Order date
